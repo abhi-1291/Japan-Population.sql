@@ -1,2 +1,7 @@
-# Japan-Population.sql
-Query the sum of the populations for all Japanese cities in CITY. The COUNTRYCODE for Japan is JPN.
+SELECT SUM(POPULATION)
+<br>
+FROM CITY
+<br>
+WHERE
+<br>
+COUNTRYCODE = 'JPN';
